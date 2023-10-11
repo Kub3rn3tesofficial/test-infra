@@ -529,6 +529,7 @@ presubmits:
     skip_branches:
       - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-node-kubelet-serial-containerd
     labels:
@@ -1189,6 +1190,7 @@ presubmits:
     skip_branches:
     - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-node-kubelet-serial-crio-cgroupv1
     always_run: false
@@ -1239,6 +1241,7 @@ presubmits:
     skip_branches:
     - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-node-kubelet-serial-crio-cgroupv2
     always_run: false
@@ -1660,6 +1663,7 @@ presubmits:
     skip_branches:
       - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-kubelet-gce-e2e-swap-ubuntu-serial
     labels:
@@ -1711,6 +1715,7 @@ presubmits:
     skip_branches:
     - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-kubelet-gce-e2e-swap-fedora-serial
     always_run: false
@@ -2021,6 +2026,7 @@ presubmits:
     skip_branches:
       - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-cos-cgroupv2-containerd-node-e2e-serial
     always_run: false
@@ -2172,6 +2178,7 @@ presubmits:
     skip_branches:
       - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-cos-cgroupv1-containerd-node-e2e
     always_run: false
@@ -2223,6 +2230,7 @@ presubmits:
     skip_branches:
       - release-\d+\.\d+  # per-release image
     annotations:
+      fork-per-release: "true"
       testgrid-dashboards: sig-node-presubmits
       testgrid-tab-name: pr-cos-cgroupv1-containerd-node-e2e-features
     always_run: false
